@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+     "thumbnailUrl": "./images/categoria1/baseBarra.jpg",
+     "title": "Base en barra",
+     "descripcion":"Es perfecta para que perfiles, bronces y destaques tu rostro con un solo producto.",
+     "precio": 35000
+    },
+    {
+        "id": 2,
+       "thumbnailUrl": "./images/categoria1/baseenpolvo.jpg",
+       "title": "Base en polvo",
+       "descripcion":"./images/categoria1/baseliquida.jpg",
+       "precio": 45000
+      },
+      {
+        "id": 3,
+       "thumbnailUrl": "./images/categoria1/baseliquida.jpg",
+       "title": "Bases liquida",
+       "descripcion":"Base fluida hd.",
+       "precio": 55000
+      },
+      {
+        "id": 4,
+       "thumbnailUrl": "./images/categoria1/compactoSencillo.jpg",
+       "title": "Compacto",
+       "descripcion":"Polvo compacto.",
+       "precio": 35000
+      },
+      {  
+        "id": 5,
+       "thumbnailUrl": "./images/categoria1/compactoSuelto.jpg",
+       "title": "Compacto suelto",
+       "descripcion":"Los Polvos Sueltos Minerales deberían estar siempre en tu neceser, pues fijan tu maquillaje y hacen que dure por más tiempo.",
+       "precio": 50000
+      }
+      ,{
+        
+        "id": 6,
+       "thumbnailUrl": "./images/categoria1/compactoTraslucido.jpg",
+       "title": "Compacto traslucido",
+       "descripcion":"Polvo translúcido ideal para fijar el maquillaje y generar un efecto mate después de ejercitarse. Para todos. Disfruta de la nueva colección deportiva.",
+       "precio": 50000
+      }
+  ]

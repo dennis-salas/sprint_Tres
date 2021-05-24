@@ -37,22 +37,26 @@
         </div>
     </div>
     <main id="contenedor-2">
-        <div class="card mb-3" style="max-width: 40%;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img id="imgProducto"src="" alt="">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title" id="nombreProducto"></h5>
-                        <p class="card-text" id="descripcionProducto"></p>
-                        <div>
-                            <input type="text" class="form-control"id="cantidadProducto" placeholder="Cantidad" required>
-                            <button type="submit" class="btn btn-info" id="boton">Agregar al carrito</button>
+        <div class="row" id="items">
+            <template id="template-card">
+                <div class="card mb-3" style="max-width: 40%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img id="imgProducto"src="" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombreProducto"></h5>
+                                <p class="card-text" id="descripcionProducto"></p>
+                                <div>
+                                    <input type="text" class="form-control"id="cantidadProducto" placeholder="Cantidad" required>
+                                    <button type="submit" class="btn btn-info" id="boton">Agregar al carrito</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </template>
         </div>
     </main>
     <footer id="contenedor-3" class="bg-light py-3">
