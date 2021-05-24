@@ -20,15 +20,15 @@
                 </button>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-info" type="submit"><img src="./images/buscar.svg" alt=""></button>
+                    <button class="btn btn-outline-info" type="submit"><img src="./images/iconos/search.svg" alt=""></button>
                 </form>
                 <div class="navbar-nav">
                     <a href="./index.html" class="nav-link">Inicio</a>
                     <a href="#" class="nav-link">Nosotros</a>
                     <a href="#" class="nav-link">Contactano</a>
                 </div>
-                <div class="alert alert-primary d-flex align-items-center" role="alert" id="carrito">
-                    <img src="./images/emptyshoppingcart_shopingcart_carritodelacompravacio_4565.ico" width="40px" height="30px" alt="">
+                <div class="alert alert-info d-flex align-items-center" role="alert" id="carrito">
+                    <img src="./images/iconos/cart.svg" width="40px" height="30px" alt="">
                     <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                 <div>
                     <h1 id="contador"></h1>
@@ -38,33 +38,33 @@
     </div>
     <main id="contenedor-2">
         <div class="container">
-            <h1 class="">Información de pago</h1>
-            <form class="container">
+            <h1 class="text-center">Información de pago</h1>
+            <form class="container" id="formulario">
                 <div class="row mb-3">
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputEmail3" placeholder="Nombre completo">
+                        <input type="text" class="form-control" id="inputEmail3" id="nombreC" placeholder="Nombre completo" required>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Correo electrónico">
+                        <input type="email" class="form-control" id="inputEmail3" id="correoE" placeholder="Correo electrónico" required>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputPassword3" placeholder="Numero de Tarjeta">
+                        <input type="text" class="form-control" id="inputPassword3" id="numeroT" placeholder="Numero de Tarjeta" required>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-sm-6">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="F. Vencimiento MM/AA">
+                        <input type="text" class="form-control" id="inputPassword3" id="fechaV" placeholder="F. Vencimiento MM/AA" required>
                     </div>
                     <div class="col-4">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="CCV">
+                        <input type="text" class="form-control" id="inputPassword3" id="ccv" placeholder="CCV" required>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </form>
+                <button type="submit" class="btn btn-info" id="boton">Enviar pago</button>
+            </form>
         </div>
     </main>
     <footer id="contenedor-3" class="bg-light py-3">
@@ -72,13 +72,9 @@
             <div class="row">
                 <div class="col-md-6 font-weight-ligth">
                     <div>
-                        <a href="#">Facebook</a>
-                    </div>
-                    <div>
-                        <a href="#">Twiter</a>
-                    </div>
-                    <div>
-                        <a href="#">Instagram</a>
+                        <a href="#"><img class="img-footer" src="./images/iconos/facebook.svg" alt=""></a> 
+                        <a href="#"><img class="img-footer" src="./images/iconos/instagram.svg" alt=""></a>
+                        <a href="#"><img class="img-footer" src="./images/iconos/whatsapp.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 font-weight-ligth">

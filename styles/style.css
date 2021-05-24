@@ -64,6 +64,11 @@ body{
     height: 300px;
     margin: auto;
 }
+.img-footer{
+    margin: 5px;
+    padding: 5px;
+    width: 40px;
+}
 @media (max-width: 360px){
     /*slide de presentación*/
 .presentacion{
