@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+/*navedor*/
+#carrito{
+    background-color: white;
+}
+#contenedor-2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+.img-footer{
+    margin: 5px;
+    padding: 5px;
+    width: 40px;
+}

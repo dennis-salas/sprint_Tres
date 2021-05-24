@@ -21,7 +21,13 @@ const crearRegistro = (nombreC,correoE,numeroT,fechaV,cvv) => {
 let r2 = crearRegistro("hi","hola","hello","chao","bay");
 console.log(arreglo);*/
 
+const guardarDatos = () => {
+    localStorage.setItem('Datos Cliente', JSON.stringify(arreglo))
+}
 
+
+
+//Eventos
 formulario.addEventListener('submit', e => {
 
     e.preventDefault();
@@ -31,14 +37,8 @@ formulario.addEventListener('submit', e => {
     let fecha = document.querySelector('#fechaV').value;
     let cvv = document.querySelector('#ccv').value;
     
-    
-    console.log(nombre);
-    console.log(correo);
-    console.log(tarjeta);
-    console.log(fecha);
-    console.log(cvv);
-
-    crearRegistro(nom,p1,p2,p3);
+    crearRegistro(nombre,correo,tarjeta,fecha,cvv);
     guardarDatos();
+
     formulario.reset();
 })
