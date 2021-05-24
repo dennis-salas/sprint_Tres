@@ -6,7 +6,7 @@ Reto: Desarrollo Ecommerce
 
 Es una la plataforma, que permite a los usuarios acceder a la comprar de sus cosmeticos favoritos desde la comodidad de sus teléfonos. 
 
-## Desarrolado con las siguientes tecnologias
+## Desarrollado con las siguientes tecnologias
 
 HTML, CSS, JavaScripts, Bootraps.
 
